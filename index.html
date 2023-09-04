@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>HW36</title>
+</head>
+<body>
+
+<form id="registration-form">
+
+<label for="first-name">Name:</label>
+<input type="text" id="first-name" name="first-name" required>
+
+<label for="last-name">Last name:</label>
+<input type="text" id="last-name" name="last-name" required>
+
+<label for="birthdate">Birthdate:</label>
+<input type="text" id="birthdate" name="birthdate" required>
+
+<label>Gender</label>
+<input type="radio" id="male" name="gender" value="Male">Male
+<input type="radio" id="female" name="gender" value="Female">Female
+
+<label for="city">City</label>
+<select name="city" id="city">
+    <option value="Odesa">Odesa</option>
+    <option value="Lviv">Lviv</option>
+    <option value="Dnipro">Dnipro</option>
+    <option value="Kyiv">Kyiv</option>
+    <option value="Another">Another</option>
+</select>
+
+<label for="address">Address</label>
+<textarea name="address" id="address"></textarea>
+<input type="checkbox" name="languages" id="english" value="English">English
+<input type="checkbox" name="languages" id="ukrainian" value="Ukrainian">Ukrainian
+<input type="checkbox" name="languages" id="spanish" value="Spanish">Spanish
+
+<button type="button" id="submit-button">Save</button>
+
+</form>
+    <script src="./index.js"></script>
+</body>
+</html>
