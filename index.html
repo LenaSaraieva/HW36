@@ -38,9 +38,19 @@
 <input type="checkbox" name="languages" id="ukrainian" value="Ukrainian">Ukrainian
 <input type="checkbox" name="languages" id="spanish" value="Spanish">Spanish
 
-<button type="button" id="submit-button">Save</button>
+<button type="button" id="submit-button"  onclick="displayTable()">Save</button>
 
 </form>
     <script src="./index.js"></script>
+    <div id="userData" style="display: none;">
+        <h2>Entered Data:</h2>
+        <table>
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+        </table>
+    </div>
+    
 </body>
 </html>
